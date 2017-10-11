@@ -1,4 +1,4 @@
-# My file
+# README
 ## **INTRODUCTION**
 ### *Reason to write*
 One of my senior told me that everyone should have a txt file, which you can write anything you learn in it. So this is mine.
@@ -14,7 +14,14 @@ But a txt file is so boring, so I make a markdown one, which is suitable for my 
 ### *How to use*
 Try to Ctrl+F a keyword. There's will have a full table of contents as soon as possible.
 
-## **Coding**
+## **MY EXPERIENCES**
+* Best ways to work: SCRUM + KANBAN + POMODORO.
+* Write down everything you think.
+
+## **SKILLS, TIPS AND TRICKS**
+
+
+## **CODING**
 ### *C/C++*
 * Convert a hex (32 bits) to float (ABCD): create a float-type-pointer point to that hex number, then read the value.
 ```c
@@ -26,6 +33,8 @@ void main(){
 ```
 
 ### *Python*
+* Document link:
+    * [Paho MQTT python doc](https://pypi.python.org/pypi/paho-mqtt/1.1)
 
 ### *Git*
 * Link to learn about git
