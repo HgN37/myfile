@@ -1,4 +1,5 @@
 # README
+
 ## **INTRODUCTION**
 ### *Reason to write*
 One of my senior told me that everyone should have a txt file, which you can write anything you learn in it. So this is mine.
@@ -12,7 +13,7 @@ But a txt file is so boring, so I make a markdown one, which is suitable for my 
 * I can use this as my diary too.
 
 ### *How to use*
-Try to Ctrl+F a keyword. There's will have a full table of contents as soon as possible.
+Try to Ctrl+F a keyword. There's will be a full table of contents as soon as possible.
 
 ## **MY EXPERIENCES**
 * Best ways to work: SCRUM + KANBAN + POMODORO.
