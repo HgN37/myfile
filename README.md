@@ -24,6 +24,13 @@ Try to Ctrl+F a keyword. There's will be a full table of contents as soon as pos
 
 ## **CODING**
 ### *C/C++*
+* Command Line Arguments
+```c
+int main(int argc, char *argv[]){
+    // argc: number of arguments, the name of program is one argument itself
+    // argv[]: argv[0] is program name.
+}
+```
 * Convert a hex (32 bits) to float (ABCD): create a float-type-pointer point to that hex number, then read the value.
 ```c
 uint32_t number_in_hex = 0x12345678;
@@ -36,6 +43,35 @@ void main(){
 ### *Python*
 * Document link:
     * [Paho MQTT python doc](https://pypi.python.org/pypi/paho-mqtt/1.1)
+* Command Line Arguments:
+```python
+#!/usr/bin/python
+
+import sys, getopt
+
+def main(argv):
+   inputfile = ''
+   outputfile = ''
+   try:
+      # Add ':' for options that need argument
+      opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
+   except getopt.GetoptError:
+      print 'test.py -i <inputfile> -o <outputfile>'
+      sys.exit(2)
+   for opt, arg in opts:
+      if opt == '-h':
+         print 'test.py -i <inputfile> -o <outputfile>'
+         sys.exit()
+      elif opt in ("-i", "--ifile"):
+         inputfile = arg
+      elif opt in ("-o", "--ofile"):
+         outputfile = arg
+   print 'Input file is "', inputfile
+   print 'Output file is "', outputfile
+
+if __name__ == "__main__":
+   main(sys.argv[1:])
+```
 
 ### *Git*
 * Link to learn about git
