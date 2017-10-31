@@ -74,6 +74,13 @@ if __name__ == "__main__":
    main(sys.argv[1:])
 ```
 
+### *Linux*
+* Find a file in Ubuntu
+```bash
+# find process.txt from root
+find / -name "process.txt" 2>/dev/null
+```
+
 ### *Git*
 * Link to learn about git
     * [Git Beginner's Guide for Dummies](https://backlogtool.com/git-tutorial/en/)
