@@ -18,7 +18,7 @@ Try to Ctrl+F a keyword. There's will be a full table of contents as soon as pos
 ## **MY EXPERIENCES**
 * Best ways to work: SCRUM + KANBAN + POMODORO.
 * Write down everything you think.
-* To eat: Takoyaki.
+* To eat: ~~Takoyaki~~.
 
 ## **SKILLS, TIPS AND TRICKS**
 
