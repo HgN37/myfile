@@ -44,6 +44,12 @@ void main(){
 ### *Python*
 * Document link:
     * [Paho MQTT python doc](https://pypi.python.org/pypi/paho-mqtt/1.1)
+* Use system command
+```python
+import os
+# To delete folder Output
+os.sys('rm -rf Output')
+```
 * Command Line Arguments:
 ```python
 #!/usr/bin/python
