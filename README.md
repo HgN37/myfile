@@ -86,7 +86,7 @@ if __name__ == "__main__":
 # find process.txt from root
 find / -name "process.txt" 2>/dev/null
 ```
-*Create desktop entry
+* Create desktop entry
 ```
 [Desktop Entry]
 Version=1.0
