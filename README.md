@@ -86,7 +86,19 @@ if __name__ == "__main__":
 # find process.txt from root
 find / -name "process.txt" 2>/dev/null
 ```
-
+*Create desktop entry
+```
+[Desktop Entry]
+Version=1.0
+Name=Unipro UGENE
+Comment=Unipro UGENE is a cross-platform visual environment for DNA and protein sequence analysis.
+Exec=/home/samuel/ugene-1.11.5/ugene -ui
+Path=/home/samuel/ugene-1.11.5/
+Icon=/usr/share/icons/Humanity/apps/32/access.svg
+Terminal=false
+Type=Application
+Categories=Utility;Development;
+```
 ### *Git*
 * Link to learn about git
     * [Git Beginner's Guide for Dummies](https://backlogtool.com/git-tutorial/en/)
