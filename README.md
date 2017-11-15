@@ -50,6 +50,10 @@ import os
 # To delete folder Output
 os.sys('rm -rf Output')
 ```
+* Print without newline
+```python3
+print('Hello', end='')
+```
 * Command Line Arguments:
 ```python
 #!/usr/bin/python
