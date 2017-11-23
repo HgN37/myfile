@@ -40,6 +40,26 @@ void main(){
     number_in_float = *((float*)&number_in_hex);
 }
 ```
+* Execute bash command in C:
+```c
+#include <stdlib.h>
+#include <stdio.h>
+
+FILE *fp;
+int status;
+char path[100];
+
+int main(int argc, char* argv[]) {
+	fp = popen("ls -lh", "r");
+    //! Printf output of the script
+	while(fgets(path, 100, fp) != NULL) {
+		printf("%s", path);
+	}
+	status = pclose(fp);
+	printf("Exit code: %i\n", status);
+	return 0;
+}
+```
 
 ### *Python*
 * Document link:
